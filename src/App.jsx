@@ -1,16 +1,14 @@
-import Profile from './components/profile/profile'
-import FriendList from './components/friendList/friendList'
-import TransactionHistory from './components/transactionHistory/transactionHistory';
+import Profile from "./components/profile/profile";
+import FriendList from "./components/friendList/friendList";
+import TransactionHistory from "./components/transactionHistory/transactionHistory";
 
 import userData from "../src/userData.json";
 import friends from "../src/friends.json";
 import transactions from "../src/transactions.json";
 
-import './App.css'
-
+import "./App.css";
 
 const App = () => {
-
   return (
     <>
       <Profile
@@ -26,4 +24,4 @@ const App = () => {
   );
 };
 
-export default App
+export default App;
